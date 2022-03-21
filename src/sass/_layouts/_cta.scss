@@ -1,0 +1,15 @@
+#cta{
+    margin-bottom: 300px;
+    background-color: $white;
+    border-radius: 0 0 200px 200px;
+}
+.cta__container{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    h1{
+        line-height: 0.95em;
+         text-align: center;
+    }
+}

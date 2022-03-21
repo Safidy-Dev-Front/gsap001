@@ -1,0 +1,91 @@
+#approach{
+    background-color: $bleu;
+    color: $white;
+}
+.approach__wrapper{
+    display: flex;
+}
+.approach__list-block{
+    width: 70vw;
+    padding-right: 75px;
+    padding-left: 15vw;
+}
+.approach-text-top{
+    position: absolute;
+}
+.approach__item-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100vh;
+
+}
+.approach__item-title{
+    max-width: 490px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 72px;
+    line-height: 0.9em;
+}
+.approach__item-description{
+    max-width: 510px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+.approach__element-animation{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.approach__element-anim-number{
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 220px;
+    height: 220px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.approach__number{
+    position: relative;
+    top: 123px;
+    height: 100%;
+    font-family: $Whyte_InktrapBold;
+    color: #1a6cff;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+}
+.approach__lottie-con{
+    width: 30vw; 
+    height: 60vh;
+    background-color: $yellow;
+}

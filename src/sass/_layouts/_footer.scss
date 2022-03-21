@@ -1,0 +1,23 @@
+#footer{
+   padding: 160px 00;
+   background-color:  $darkBacground ;
+    color: $white;
+    h3, a{
+        color: $white;
+    }
+    @include mq(max, 991px) {
+        text-align: center;
+    }
+}
+.footer__menus-item{
+    @include mq(max, 991px) {
+        margin-bottom: 20px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        font-size: 15px;
+    }
+}

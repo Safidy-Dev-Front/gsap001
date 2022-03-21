@@ -1,0 +1,34 @@
+.features__header{
+    max-width: 568px;
+    margin: auto;
+    text-align: center;
+}
+.features__content{
+    max-width: 775px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 95px;
+    margin-bottom: 95px;
+    @include mq(max, 991px) {
+        padding: 0 50px;
+    }
+}
+.features__item{
+    text-align: center;
+    img{
+        width: 45.75px;
+        height: 45.75px;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+    .features__title-item{
+        padding-bottom: 15px;
+    }
+}
+.fastest__button{
+    margin-top: 50px;
+}
+#fastest{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

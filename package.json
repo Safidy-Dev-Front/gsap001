@@ -1,0 +1,27 @@
+{
+    "name": "gsap01",
+    "version": "1.0.0",
+    "description": "Exo animation gsap",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack --config webpack.dev.js --watch",
+        "build": "webpack --config prod.config.js"
+    },
+    "author": "Safidi",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.17.8",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.3",
+        "file-loader": "^6.2.0",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    },
+    "dependencies": {
+        "gsap": "^3.9.1",
+        "sass": "^1.49.9",
+        "sass-loader": "^12.6.0"
+    }
+}

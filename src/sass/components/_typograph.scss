@@ -1,0 +1,231 @@
+// src: url('../../fonts/WhyteInktrap-Bold.eot');
+@font-face {
+    font-family: 'GraphikBoldItalic';
+    src: url('../../fonts/Graphik-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikBlackItalic';
+    src: url('../../fonts/Graphik-BlackItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikBold';
+    src: url('../../fonts/Graphik-Bold.woff2') format('woff2'),
+        url('../../fonts/Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikLight';
+    src: url('../../fonts/Graphik-Light.woff2') format('woff2'),
+        url('../../fonts/Graphik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikExtralight';
+    src: url('../../fonts/Graphik-Extralight.woff2') format('woff2'),
+        url('../../fonts/Graphik-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikExtralightItalic';
+    src: url('../../fonts/Graphik-ExtralightItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikRegular';
+    src: url('../../fonts/Graphik-Regular.woff2') format('woff2'),
+        url('../../fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikMedium';
+    src: url('../../fonts/Graphik-Medium.woff2') format('woff2'),
+        url('../../fonts/Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikRegularItalic';
+    src: url('../../fonts/Graphik-RegularItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikLightItalic';
+    src: url('../../fonts/Graphik-LightItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikSemibold';
+    src: url('../../fonts/Graphik-Semibold.woff2') format('woff2'),
+        url('../../fonts/Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikMediumItalic';
+    src: url('../../fonts/Graphik-MediumItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikSemiboldItalic';
+    src: url('../../fonts/Graphik-SemiboldItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikThin';
+    src: url('../../fonts/Graphik-Thin.woff2') format('woff2'),
+        url('../../fonts/Graphik-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikGraphik-Black';
+    src: url('../../fonts/Graphik-Black.woff2') format('woff2'),
+        url('../../fonts/Graphik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikSuper';
+    src: url('../../fonts/Graphik-Super.woff2') format('woff2'),
+        url('../../fonts/Graphik-Super.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikThinItalic';
+    src: url('../../fonts/Graphik-ThinItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikSuperItalic';
+    src: url('../../fonts/Graphik-SuperItalic.woff2') format('woff2'),
+        url('../../fonts/Graphik-SuperItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+$GraphikBold: 'GraphikBold',
+sans-serif;
+$Whyte_InktrapHeavyItalic: 'Whyte_InktrapHeavyItalic',
+sans-serif;
+$GraphikRegular: 'GraphikRegular',
+sans-serif;
+$Whyte_InktrapMedium: 'Whyte_InktrapMedium',
+sans-serif;
+$Whyte: 'Whyte',
+sans-serif;
+$Whyte_bold: 'Whyte_bold',
+sans-serif;
+html,
+body {
+    font-family: $GraphikRegular;
+    font-size: 18px;
+    color: $textSec;
+    line-height: 25px;
+}
+
+h1,
+.h1 {
+    font-size: 74px;
+    font-family: $GraphikBold;
+    line-height: 84px;
+}
+
+.h4,
+h4 {
+    font-size: 28px;
+    line-height: 40px;
+}
+.h5, h5{
+    
+}
+
+h2,
+.h2 {
+    font-size: 55px;
+    color: $black;
+    line-height: 55px;
+    }
+
+.h3,
+h3 {
+    font-size: 20px;
+    font-family: $GraphikBold;
+    color: $black;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.header__navigation .menu {
+    a {
+        color: $black;
+        text-decoration: none;
+        font-size: 14px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+.price__unity{
+    font-family: $GraphikBold;
+}

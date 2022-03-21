@@ -1,0 +1,45 @@
+#services {
+    background-color: $bleu;
+    color: $white;
+}
+
+.services__container {
+    display: flex;
+    align-items: center;
+    max-width: 1700px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.services__text {
+    width: 50%;
+    max-width: 500px;
+    h2 {
+        line-height: 68px;
+        letter-spacing: -0.02em;
+        line-height: 0.9em;
+    }
+    h3 {
+        background-color: $green;
+        padding: 10px 20px;
+        margin-bottom: 32px;
+        border-radius: 2px;
+        width: fit-content;
+    }
+}
+
+.sercive__animation-image {
+    width: 50%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.sercive__animation-image {
+    svg {
+        max-width: 300px;
+        margin: auto;
+        height: 100%;
+    }
+}

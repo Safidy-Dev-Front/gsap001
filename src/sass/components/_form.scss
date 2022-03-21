@@ -1,0 +1,26 @@
+    .wpcf7-form-control-wrap input,
+    .field {
+        background-color: $Gry;
+        border: 1px solid rgba(232, 232, 232, 1);
+        font-size: 16px;
+        padding: 20px 39px;
+        border-radius: 50px;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    
+    .wpcf7-form-control-wrap textarea {
+        font-size: 16px;
+        padding: 20px 39px;
+        background-color: $Gry;
+        border: 1px solid rgba(232, 232, 232, 1);
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    
+    .inpunt__mail {
+        margin-right: 15px;
+        @include mq(max, 767px) {
+            margin-right: 0;
+        }
+    }

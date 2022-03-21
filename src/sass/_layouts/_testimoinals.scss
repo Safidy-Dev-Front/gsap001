@@ -1,0 +1,33 @@
+.testimoinals__head{
+    padding: 100px 00;
+    h2{
+        margin-bottom: 90px;
+    }
+}
+.testimoinals__content{
+    margin-bottom: 100px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img__company{
+    margin-bottom: 50px;
+}
+.testimoinals__footer{
+    padding-bottom: 100px;
+}
+.testimoinals__author{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    p{
+        margin: 0;
+        font-size: 16px;
+        text-align: left;
+    }
+}
