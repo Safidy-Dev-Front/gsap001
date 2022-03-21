@@ -12,7 +12,11 @@ gsap.registerEffect({
 //now we can use it like this:
 //gsap.effects.fade(".box");
 
+let i = 0.1;
 document.querySelectorAll(".box").forEach(function(box) {
+    i++
+    console.log(1);
+    gsap.from(box, { opacity: 0, y: '-100%', duration: i, ease: 'Bounce.easeOut' });
     box.addEventListener("mouseenter", function() {
         gsap.effects.fade(this);
     });
